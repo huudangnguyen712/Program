@@ -10,7 +10,7 @@ namespace TestSourceTree.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Test Source Tree";
+            
             ViewBag.Message = "Hello, world";
             return View();
         }
